@@ -1,7 +1,7 @@
 import { DataSource } from 'typeorm';
 import { IEmployee, IOrganization, ITenant, PaymentMethodEnum } from '@gauzy/contracts';
 import { Payment } from './payment.entity';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import * as moment from 'moment';
 import { environment as env } from '@gauzy/config';
 import { Invoice, OrganizationProject, Tag, User } from './../core/entities/internal';

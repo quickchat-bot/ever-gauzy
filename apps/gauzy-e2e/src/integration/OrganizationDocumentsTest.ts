@@ -4,7 +4,7 @@ import * as organizationDocumentsPage from '../support/Base/pages/OrganizationDo
 import { OrganizationDocumentsPageData } from '../support/Base/pagedata/OrganizationDocumentsPageData';
 import * as dashboradPage from '../support/Base/pages/Dashboard.po';
 import { CustomCommands } from '../support/commands';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 
 let url = faker.internet.url();
 

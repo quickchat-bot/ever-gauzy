@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { ILanguage, LanguagesEnum } from '@gauzy/contracts';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { Language } from './language.entity';
 import  allLanguages from './all-languages';
 

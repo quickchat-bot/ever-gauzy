@@ -1,6 +1,6 @@
 import { environment as env } from '@gauzy/config';
 import { Injectable } from '@nestjs/common';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { GauzyAIService } from '@gauzy/integration-ai';
 import {
 	IApplyJobPostInput,

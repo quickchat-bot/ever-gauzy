@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { IntegrationMap } from './integration-map.entity';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { IntegrationTenant } from '../integration-tenant/integration-tenant.entity';
 import { Organization } from '../organization/organization.entity';
 import { IIntegrationMap, IntegrationEntity, ITenant } from '@gauzy/contracts';

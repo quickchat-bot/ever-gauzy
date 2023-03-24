@@ -1,4 +1,4 @@
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { TimeSlot } from './time-slot.entity';
 import { generateTimeSlots } from './utils';
 

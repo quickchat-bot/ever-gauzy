@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { OrganizationRecurringExpense } from './organization-recurring-expense.entity';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import {
 	IOrganization,
 	ITenant,

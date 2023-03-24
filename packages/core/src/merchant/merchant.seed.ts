@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { Merchant, Contact, ImageAsset, Country } from './../core/entities/internal';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { ICountry, IMerchant, IOrganization, ITenant } from '@gauzy/contracts';
 
 export const createRandomMerchants = async (

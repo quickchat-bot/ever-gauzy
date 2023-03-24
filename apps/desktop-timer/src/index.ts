@@ -33,7 +33,7 @@ log.catchErrors({
 			})
 			.then((result) => {
 				if (result.response === 1) {
-					submitIssue('https://github.com/ever-co/ever-gauzy-desktop-timer/issues/new', {
+					submitIssue('https://github.com/quickchat-bot/ever-gauzy-desktop-timer/issues/new', {
 						title: `Automatic error report for Desktop Timer App ${versions.app}`,
 						body:
 							'Error:\n```' +
@@ -125,7 +125,7 @@ const notificationWindow: BrowserWindow = null;
 const serverGauzy = null;
 const updater = new DesktopUpdater({
 	repository: 'ever-gauzy-desktop-timer',
-	owner: 'ever-co',
+	owner: 'quickchat-bot',
 	typeRelease: 'releases'
 });
 args.some((val) => val === '--serve');

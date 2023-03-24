@@ -1,4 +1,4 @@
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import * as _ from 'underscore';
 import * as moment from 'moment';
 import { DataSource } from 'typeorm';

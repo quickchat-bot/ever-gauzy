@@ -1,6 +1,6 @@
 import { ICandidate, ICandidateEducation, ITenant } from '@gauzy/contracts';
 import { DataSource } from 'typeorm';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { DEFAULT_CANDIDATE_EDUCATIONS } from './default-candidate-educations';
 import { CandidateEducation, Organization } from './../core/entities/internal';
 

@@ -28,7 +28,7 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@ever-co/faker": "^6.0.0-alpha.5",
+		"@quickchat-bot/faker": "^6.0.0-alpha.5",
 		"@gauzy/common": "^0.1.0",
 		"@gauzy/contracts": "^0.1.0",
 		"@gauzy/core": "^0.1.0",
@@ -42,7 +42,7 @@
 		"nest-router": "^1.0.9",
 		"typeorm": "0.3.7",
 		"typeorm-aurora-data-api-driver": "^2.4.4",
-		"typeorm-express-query-builder": "https://github.com/ever-co/typeorm-express-query-builder.git"
+		"typeorm-express-query-builder": "https://github.com/quickchat-bot/typeorm-express-query-builder.git"
 	},
 	"devDependencies": {
 		"@types/node": "^17.0.33",

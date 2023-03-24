@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { OrganizationDepartment } from './organization-department.entity';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { Tag } from '../tags/tag.entity';
 import { DEFAULT_ORGANIZATION_DEPARTMENTS } from './default-organization-departments';
 import { IOrganization, ITenant } from '@gauzy/contracts';

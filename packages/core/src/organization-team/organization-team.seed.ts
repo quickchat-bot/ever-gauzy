@@ -3,7 +3,7 @@ import { OrganizationTeam } from './organization-team.entity';
 import { OrganizationTeamEmployee } from '../organization-team-employee/organization-team-employee.entity';
 import { IEmployee, IOrganization, IRole, ITenant, RolesEnum } from '@gauzy/contracts';
 import * as _ from 'underscore';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { DEFAULT_ORGANIZATION_TEAMS } from './default-organization-teams';
 
 export const createDefaultTeams = async (

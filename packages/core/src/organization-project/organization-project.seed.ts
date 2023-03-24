@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { chain } from 'underscore';
 import { OrganizationProject } from './organization-project.entity';
 import {

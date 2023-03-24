@@ -9,7 +9,7 @@ import { OrganizationProjectsPageData } from '../../Base/pagedata/OrganizationPr
 import { CustomCommands } from '../../commands';
 import * as organizationTagsUserPage from '../../Base/pages/OrganizationTags.po';
 import { OrganizationTagsPageData } from '../../Base/pagedata/OrganizationTagsPageData';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import * as manageEmployeesPage from '../../Base/pages/ManageEmployees.po';
 
 import { Given, Then, When, And } from 'cypress-cucumber-preprocessor/steps';

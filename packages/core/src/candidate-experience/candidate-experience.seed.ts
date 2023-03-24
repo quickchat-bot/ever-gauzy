@@ -1,7 +1,7 @@
 import { DataSource } from 'typeorm';
 import { Tenant } from '../tenant/tenant.entity';
 import { ICandidate } from '@gauzy/contracts';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { CandidateExperience } from './candidate-experience.entity';
 import { Organization } from '../organization/organization.entity';
 

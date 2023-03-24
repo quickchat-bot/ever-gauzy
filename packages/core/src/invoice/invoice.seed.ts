@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { Invoice } from './invoice.entity';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import * as moment from 'moment';
 import { chain } from 'underscore';
 import {

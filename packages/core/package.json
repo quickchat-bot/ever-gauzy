@@ -37,7 +37,7 @@
 	"keywords": [],
 	"dependencies": {
 		"@apollo/client": "^3.6.2",
-		"@ever-co/faker": "^6.0.0-alpha.5",
+		"@quickchat-bot/faker": "^6.0.0-alpha.5",
 		"@gauzy/auth": "^0.1.0",
 		"@gauzy/common": "^0.1.0",
 		"@gauzy/config": "^0.1.0",
@@ -139,7 +139,7 @@
 		"swagger-ui-express": "^4.1.4",
 		"typeorm": "0.3.7",
 		"typeorm-aurora-data-api-driver": "^2.4.4",
-		"typeorm-express-query-builder": "https://github.com/ever-co/typeorm-express-query-builder.git",
+		"typeorm-express-query-builder": "https://github.com/quickchat-bot/typeorm-express-query-builder.git",
 		"underscore": "^1.13.3",
 		"unleash-client": "^3.16.1",
 		"unzipper": "^0.10.11",

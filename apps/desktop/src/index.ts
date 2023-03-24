@@ -22,7 +22,7 @@ log.catchErrors({
 			})
 			.then((result) => {
 				if (result.response === 1) {
-					submitIssue('https://github.com/ever-co/ever-gauzy-desktop/issues/new', {
+					submitIssue('https://github.com/quickchat-bot/ever-gauzy-desktop/issues/new', {
 						title: `Automatic error report for Desktop App ${versions.app}`,
 						body:
 							'Error:\n```' +
@@ -134,7 +134,7 @@ const pathWindow = {
 
 const updater = new DesktopUpdater({
 	repository: 'ever-gauzy-desktop',
-	owner: 'ever-co',
+	owner: 'quickchat-bot',
 	typeRelease: 'releases'
 
 });

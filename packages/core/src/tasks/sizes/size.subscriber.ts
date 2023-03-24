@@ -4,7 +4,7 @@ import {
 	InsertEvent,
 	LoadEvent,
 } from 'typeorm';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { sluggable } from '@gauzy/common';
 import { TaskSize } from './size.entity';
 

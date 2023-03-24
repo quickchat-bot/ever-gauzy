@@ -54,7 +54,7 @@ let isServerRun: boolean;
 
 const updater = new DesktopUpdater({
 	repository: 'ever-gauzy-server',
-	owner: 'ever-co',
+	owner: 'quickchat-bot',
 	typeRelease: 'releases'
 });
 

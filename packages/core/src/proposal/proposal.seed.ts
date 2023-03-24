@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { Proposal } from './proposal.entity';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import * as moment from 'moment';
 import { Tag } from '../tags/tag.entity';
 import { IEmployee, IOrganization, ITenant, ProposalStatusEnum } from '@gauzy/contracts';

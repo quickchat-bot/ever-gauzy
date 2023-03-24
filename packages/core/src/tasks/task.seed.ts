@@ -1,5 +1,5 @@
 import { Brackets, DataSource, WhereExpressionBuilder } from 'typeorm';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { filter, uniq } from 'underscore';
 import { lastValueFrom, map } from 'rxjs';
 import { isNotEmpty } from '@gauzy/common';
@@ -30,12 +30,12 @@ export const createDefaultTask = async (
 ) => {
 	const httpService = new HttpService();
 
-	console.log(`${GITHUB_API_URL}/repos/ever-co/ever-gauzy/issues`);
+	console.log(`${GITHUB_API_URL}/repos/quickchat-bot/ever-gauzy/issues`);
 	const issues$ = httpService
-		.get(`${GITHUB_API_URL}/repos/ever-co/ever-gauzy/issues`)
+		.get(`${GITHUB_API_URL}/repos/quickchat-bot/ever-gauzy/issues`)
 		.pipe(map((response: AxiosResponse<any>) => response.data));
 	const issues: any[] = await lastValueFrom(issues$);
-	console.log(`Done ${GITHUB_API_URL}/repos/ever-co/ever-gauzy/issues`);
+	console.log(`Done ${GITHUB_API_URL}/repos/quickchat-bot/ever-gauzy/issues`);
 
 	let labels = [];
 	issues.forEach(async (issue) => {
@@ -104,12 +104,12 @@ export const createRandomTask = async (
 ) => {
 	const httpService = new HttpService();
 
-	console.log(`${GITHUB_API_URL}/repos/ever-co/ever-gauzy/issues`);
+	console.log(`${GITHUB_API_URL}/repos/quickchat-bot/ever-gauzy/issues`);
 	const issues$ = httpService
-		.get(`${GITHUB_API_URL}/repos/ever-co/ever-gauzy/issues`)
+		.get(`${GITHUB_API_URL}/repos/quickchat-bot/ever-gauzy/issues`)
 		.pipe(map((response: AxiosResponse<any>) => response.data));
 	const issues: any[] = await lastValueFrom(issues$);
-	console.log(`Done ${GITHUB_API_URL}/repos/ever-co/ever-gauzy/issues`);
+	console.log(`Done ${GITHUB_API_URL}/repos/quickchat-bot/ever-gauzy/issues`);
 
 	let labels = [];
 	issues.forEach(async (issue) => {

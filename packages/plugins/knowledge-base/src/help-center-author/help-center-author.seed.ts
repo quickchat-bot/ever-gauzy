@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { IEmployee, IHelpCenterAuthor, ITenant } from '@gauzy/contracts';
 import { HelpCenterAuthor } from './help-center-author.entity';
 import { HelpCenterArticle } from '../help-center-article/help-center-article.entity';

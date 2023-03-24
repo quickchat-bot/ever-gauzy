@@ -1,5 +1,5 @@
 import { Brackets, DataSource, WhereExpressionBuilder } from 'typeorm';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import * as _ from 'underscore';
 import {
 	TimeLogSourceEnum,

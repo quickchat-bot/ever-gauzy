@@ -4,7 +4,7 @@ import * as organizationInventoryPage from '../../Base/pages/OrganizationInvento
 import { OrganizationInventoryPageData } from '../../Base/pagedata/OrganizationInventoryPageData';
 import * as dashboardPage from '../../Base/pages/Dashboard.po';
 import { CustomCommands } from '../../commands';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import * as logoutPage from '../../Base/pages/Logout.po';
 import * as organizationTagsUserPage from '../../Base/pages/OrganizationTags.po';
 import { OrganizationTagsPageData } from '../../Base/pagedata/OrganizationTagsPageData';

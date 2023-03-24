@@ -5,7 +5,7 @@ import {
 	ITenant,
 	RecurringExpenseDefaultCategoriesEnum
 } from '@gauzy/contracts';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import * as moment from 'moment';
 import { environment as env } from '@gauzy/config';
 import { EmployeeRecurringExpense } from './employee-recurring-expense.entity';

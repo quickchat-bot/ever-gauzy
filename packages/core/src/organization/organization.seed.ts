@@ -2,7 +2,7 @@ import * as _ from 'underscore';
 import * as moment from 'moment';
 import * as timezone from 'moment-timezone';
 import { DataSource } from 'typeorm';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { getDummyImage } from '../core';
 import {
 	Contact,

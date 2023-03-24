@@ -1,6 +1,6 @@
 import { DataSource } from 'typeorm';
 import { IEmployee, IOrganization, ITenant } from '@gauzy/contracts';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import { environment as env } from '@gauzy/config';
 import { EmployeeSetting } from './employee-setting.entity';
 

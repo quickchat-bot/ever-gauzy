@@ -1,6 +1,6 @@
 import { DataSource, In } from 'typeorm';
 import { BillingInvoicingPolicyEnum, IOrganization, ITenant } from '@gauzy/contracts';
-import { faker } from '@ever-co/faker';
+import { faker } from '@quickchat-bot/faker';
 import * as _ from 'underscore';
 import { ProductVariant } from './product-variant.entity';
 import {
