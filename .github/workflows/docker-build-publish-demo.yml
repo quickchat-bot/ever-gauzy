@@ -42,13 +42,7 @@ jobs:
                   username: ${{ github.repository_owner }}
                   password: ${{ secrets.GH_TOKEN }}
 
-            - name: Install doctl
-              uses: digitalocean/action-doctl@v2
-              with:
-                  token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
 
-            - name: Log in to DigitalOcean Container Registry with short-lived credentials
-              run: doctl registry login --expiry-seconds 3600
 
             - name: Build
               uses: docker/build-push-action@v3
@@ -59,8 +53,8 @@ jobs:
                   platforms: linux/amd64
                   tags: |
                       ghcr.io/quickchat-bot/gauzy-api-demo:latest
-                      everco/gauzy-api-demo:latest
-                      registry.digitalocean.com/ever/gauzy-api-demo:latest
+                      quickchatvn/gauzy-api-demo:latest
+                  
                   cache-from: type=registry,ref=everco/gauzy-api-demo:latest
                   cache-to: type=inline
 
@@ -70,11 +64,8 @@ jobs:
 
             - name: Push to Docker Hub Registry
               run: |
-                  docker push everco/gauzy-api-demo:latest
+                  docker push quickchatvn/gauzy-api-demo:latest
 
-            - name: Push to DigitalOcean Registry
-              run: |
-                  docker push registry.digitalocean.com/ever/gauzy-api-demo:latest
 
             - name: Push to Github Registry
               run: |
@@ -117,13 +108,7 @@ jobs:
                   username: ${{ github.repository_owner }}
                   password: ${{ secrets.GH_TOKEN }}
 
-            - name: Install doctl
-              uses: digitalocean/action-doctl@v2
-              with:
-                  token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
 
-            - name: Log in to DigitalOcean Container Registry with short-lived credentials
-              run: doctl registry login --expiry-seconds 3600
 
             - name: Build and push
               uses: docker/build-push-action@v3
@@ -133,18 +118,15 @@ jobs:
                   load: true
                   tags: |
                       ghcr.io/quickchat-bot/gauzy-webapp-demo:latest
-                      everco/gauzy-webapp-demo:latest
-                      registry.digitalocean.com/ever/gauzy-webapp-demo:latest
+                      quickchatvn/gauzy-webapp-demo:latest
+                      
                   cache-from: type=registry,ref=everco/gauzy-webapp-demo:latest
                   cache-to: type=inline
 
             - name: Push to Docker Hub Registry
               run: |
-                  docker push everco/gauzy-webapp-demo:latest
+                  docker push quickchatvn/gauzy-webapp-demo:latest
 
-            - name: Push to DigitalOcean Registry
-              run: |
-                  docker push registry.digitalocean.com/ever/gauzy-webapp-demo:latest
 
             - name: Push to Github Registry
               run: |
